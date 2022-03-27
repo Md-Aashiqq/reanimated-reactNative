@@ -1,14 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-
-import Animated from "react-native-reanimated";
-
-import Channel from "./Chanel";
+import Basic from "./Basic/Index";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Channel />
+      <Basic />
       <StatusBar style="auto" />
     </View>
   );
